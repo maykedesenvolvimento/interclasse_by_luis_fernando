@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários dos Jogos - Interclasse IFTM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Estilos completos/CSS/horario.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">
+            <i class="fas fa-arrow-left"></i>
+            Voltar para o Site
+        </a>
+
+        <div class="header">
+            <i class="fas fa-calendar-alt"></i>
+            <h1 id="page-title">Tabela de Horários dos Jogos</h1>
+            <p id="page-subtitle">Interclasse 2025 - IFTM Paracatu</p>
+        </div>
+
+        <!-- Controls: shown ONLY when ?admin=true (visibility controlled by JS) -->
+        <div id="controls-bar"
+            style="display:flex; gap:12px; align-items:center; margin-bottom:1.25rem; flex-wrap:wrap;">
+            <button id="toggle-edit-btn" class="back-button" style="background:#3ea14c;">
+                <i class="fas fa-edit"></i> Editar Horários
+            </button>
+
+            <button id="add-day-btn" class="back-button" style="background:#928f90;">
+                <i class="fas fa-plus"></i> Adicionar Dia
+            </button>
+
+            <input id="import-file" type="file" accept=".json" style="display:none;">
+            <button id="import-btn" class="back-button" style="background:#1976d2;">
+                <i class="fas fa-file-import"></i> Importar JSON
+            </button>
+
+            <button id="export-btn" class="back-button" style="background:#423f40;">
+                <i class="fas fa-file-export"></i> Exportar JSON
+            </button>
+
+            <div style="margin-left:auto; color:#423f40; font-weight:600;">
+                Modo: <span id="mode-label">Visualização</span>
+            </div>
+        </div>
+
+        <!-- Root where schedule will be rendered -->
+        <div id="schedule-root"></div>
+
+        <!-- Informações Importantes (will be populated from JSON) -->
+        <div id="info-box-root" class="info-box" style="display:none; margin-top:2rem;"></div>
+    </div>
+
+    <!-- Script that renders and allows editing of the schedule stored as JSON -->
+    <script src="Estilos completos/JS/horarios.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "version": "1.2",
+  "last_updated": "2025-12-15T15:01:20.845Z",
+  "metadata": {
+    "description": "Dados do Interclasse IFTM 2025",
+    "edit_mode": {
+      "enabled_via_query": true,
+      "query_parameter": "admin",
+      "value_to_enable": "true",
+      "example": "horarios.html?admin=true"
+    },
+    "last_updated": "2025-12-16T17:12:54.903Z"
+  },
+  "title": "Tabela de Horários dos Jogos",
+  "event": "Interclasse 2025",
+  "location": "IFTM Paracatu",
+  "schedule": [],
+  "info": [
+    "Haverá tolerância de 15 minutos somente para o início do primeiro jogo",
+    "Jogos de Futsal: 2 tempos de 7 minutos + 1 minuto de intervalo (15 min total)",
+    "Jogos de Basquetebol: 2 tempos de 6 minutos + 3 minutos de intervalo (15 min total)",
+    "Alunos em recuperação deverão realizar suas provas normalmente conforme programado",
+    "É obrigatório o uso de uniforme ou camisa identificadora da equipe",
+    "Respeite os adversários, árbitros e organize a torcida",
+    "Em caso de dúvidas, procure a coordenação do evento"
+  ]
+}

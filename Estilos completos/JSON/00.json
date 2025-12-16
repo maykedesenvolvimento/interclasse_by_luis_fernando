@@ -1,0 +1,286 @@
+{
+  "version": "1.2",
+  "last_updated": "2025-12-12T00:00:00Z",
+  "metadata": {
+    "description": "Dados do Interclasse IFTM 2025",
+    "edit_mode": {
+      "enabled_via_query": true,
+      "query_parameter": "admin",
+      "value_to_enable": "true",
+      "example": "horarios.html?admin=true"
+    },
+    "last_updated": "2025-12-15T15:01:20.845Z"
+  },
+  "title": "Tabela de Horários dos Jogos",
+  "event": "Interclasse 2025",
+  "location": "IFTM Paracatu",
+  "schedule": [
+    {
+      "weekday": "Segunda-feira",
+      "date": "2025-12-15",
+      "matches": [
+        {
+          "time": "08:00",
+          "modalidade": "Futsal - Quartas de Final",
+          "confronto": "Juliana vs Tanenbaum",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "1",
+          "score2": "7"
+        },
+        {
+          "time": "08:45",
+          "modalidade": "Futsal - Quartas de Final",
+          "confronto": "Clarke vs Kirchhoff",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "3",
+          "score2": "1"
+        },
+        {
+          "time": "09:15",
+          "modalidade": "Futsal - Quartas de Final",
+          "confronto": "Ohm vs Telkes",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "2",
+          "score2": "1"
+        },
+        {
+          "time": "09:30",
+          "modalidade": "Futsal - Quartas de Final",
+          "confronto": "Clarisse/Fontes vs Fourier",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "0",
+          "score2": "3"
+        },
+        {
+          "time": "09:45",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "TANENBAUM vs CLARKE",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "3",
+          "score2": "2"
+        },
+        {
+          "time": "10:00",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "OHM vs FOURIER",
+          "local": "Quadra do IFTM",
+          "status": "Finalizando",
+          "score1": "2",
+          "score2": "6"
+        },
+        {
+          "time": "13:30",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "Semifinais e Loser Bracket",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "4",
+          "score2": "0"
+        },
+        {
+          "time": "-",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "OHM vs  FOURIER",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "3",
+          "score2": "0"
+        },
+        {
+          "time": "-",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "OHM vs TELKES",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "1",
+          "score2": "4"
+        },
+        {
+          "time": "-",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "KIRCHHOFF vs TELKES",
+          "local": "Quadra Do IFTM",
+          "status": "Finalizado",
+          "score1": "4",
+          "score2": "2"
+        },
+        {
+          "time": "-",
+          "modalidade": "Futsal - Continuação",
+          "confronto": "TANENBAUM  vs KIRCHHOFF",
+          "local": "Quadra do IFTM",
+          "status": "Finalizado",
+          "score1": "0",
+          "score2": "3"
+        },
+        {
+          "time": "18:50",
+          "modalidade": "Basquetebol - Rodada 1",
+          "confronto": "Fontes vs Kirchhoff",
+          "local": "Quadra do Alto do Córrego",
+          "status": "Agendado",
+          "score1": "",
+          "score2": ""
+        },
+        {
+          "time": "19:00",
+          "modalidade": "Basquetebol - Rodada 1",
+          "confronto": "Telkes vs Professores/Servidores",
+          "local": "Quadra do Alto do Córrego",
+          "status": "Agendado",
+          "score1": "",
+          "score2": ""
+        },
+        {
+          "time": "19:15",
+          "modalidade": "Basquetebol - Rodada 2",
+          "confronto": "Vencedor J1 vs Perdedor J2",
+          "local": "Quadra do Alto do Córrego",
+          "status": "Agendado",
+          "score1": "",
+          "score2": ""
+        },
+        {
+          "time": "19:30",
+          "modalidade": "Basquetebol - Rodada 2",
+          "confronto": "Vencedor J2 vs Perdedor J1",
+          "local": "Quadra do Alto do Córrego",
+          "status": "Agendado",
+          "score1": "",
+          "score2": ""
+        }
+      ]
+    },
+    {
+      "weekday": "Terça-feira",
+      "date": "2025-12-16",
+      "matches": [
+        {
+          "time": "07:30",
+          "modalidade": "Cerimônia de Abertura",
+          "confronto": "Abertura Oficial do Interclasse",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "08:00",
+          "modalidade": "Queimada",
+          "confronto": "Clarisse vs Clarke",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "08:20",
+          "modalidade": "Handebol",
+          "confronto": "Fourier vs Kirchhoff/Débora",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "08:40",
+          "modalidade": "Vôlei Misto",
+          "confronto": "Professores/Servidores vs Maximiano",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "09:00",
+          "modalidade": "Vôlei Misto",
+          "confronto": "Maximiano vs Clarisse",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "09:20",
+          "modalidade": "Vôlei Misto",
+          "confronto": "Clarisse vs Professores/Servidores",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "09:40",
+          "modalidade": "Vôlei Masculino",
+          "confronto": "Ohm vs Medeiros",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "10:00",
+          "modalidade": "Vôlei Masculino",
+          "confronto": "Medeiros vs Telkes",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "10:20",
+          "modalidade": "Vôlei Masculino",
+          "confronto": "Telkes vs Ohm",
+          "local": "Quadra Coberta do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "",
+          "modalidade": "",
+          "confronto": "Continuação dos Jogos",
+          "local": "",
+          "status": "Agendado"
+        }
+      ]
+    },
+    {
+      "weekday": "Quarta-feira",
+      "date": "2025-12-17",
+      "matches": [
+        {
+          "time": "07:30",
+          "modalidade": "Atletismo",
+          "confronto": "Provas de Corrida e Saltos",
+          "local": "IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "08:00",
+          "modalidade": "Xadrez",
+          "confronto": "Competição Individual",
+          "local": "IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "08:00",
+          "modalidade": "Tênis de Mesa",
+          "confronto": "Competição Individual",
+          "local": "IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "09:00",
+          "modalidade": "Futsal - Final",
+          "confronto": "Campeão Winner vs Campeão Loser",
+          "local": "Quadra do IFTM",
+          "status": "Agendado"
+        },
+        {
+          "time": "09:20",
+          "modalidade": "Futsal - Champions",
+          "confronto": "Campeão vs Professores/Servidores",
+          "local": "Quadra do IFTM",
+          "status": "Agendado"
+        }
+      ]
+    }
+  ],
+  "info": [
+    "Haverá tolerância de 15 minutos somente para o início do primeiro jogo",
+    "Jogos de Futsal: 2 tempos de 7 minutos + 1 minuto de intervalo (15 min total)",
+    "Jogos de Basquetebol: 2 tempos de 6 minutos + 3 minutos de intervalo (15 min total)",
+    "Alunos em recuperação deverão realizar suas provas normalmente conforme programado",
+    "É obrigatório o uso de uniforme ou camisa identificadora da equipe",
+    "Respeite os adversários, árbitros e organize a torcida",
+    "Em caso de dúvidas, procure a coordenação do evento"
+  ]
+}

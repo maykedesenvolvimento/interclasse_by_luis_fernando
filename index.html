@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interclasse IFTM Paracatu - MG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Estilos completos/CSS/Styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-trophy"></i>
+                <h1>Interclasse IFTM</h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#modalidades" class="nav-link">Modalidades</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="horarios.html" class="nav-link">Horários</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="parallax-section">
+        <div class="parallax-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Interclasse 2025</h1>
+            <p class="hero-subtitle">IFTM Campus Paracatu - MG</p>
+            <p class="hero-description">Unidos pelo esporte, fortalecidos pela competição!</p>
+            <button class="cta-button" onclick="openModal('modalInfo')">
+                <i class="fas fa-info-circle"></i> Saiba Mais
+            </button>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <h2 class="section-title">Sobre o Interclasse</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>O Interclasse do IFTM Paracatu é um evento esportivo anual que promove a integração entre os alunos através da competição saudável e do espírito esportivo.</p>
+                    <p>Com diversas modalidades esportivas, o evento busca desenvolver valores como trabalho em equipe, respeito, disciplina e fair play.</p>
+                    <button class="btn-secondary" onclick="openModal('modalRegras')">
+                        <i class="fas fa-book"></i> Ver Regulamento
+                    </button>
+                </div>
+                <div class="sobre-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>500+</h3>
+                        <p>Participantes</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-running"></i>
+                        <h3>8</h3>
+                        <p>Modalidades</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>3</h3>
+                        <p>Dias de Jogos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Modalidades -->
+    <section id="modalidades" class="modalidades-section parallax-section-2">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <h2 class="section-title">Modalidades Esportivas</h2>
+            <div class="modalidades-grid">
+                <div class="modalidade-card">
+                    <i class="fas fa-futbol"></i>
+                    <h3>Futsal</h3>
+                    <p>Masculino e Feminino</p>
+                    <button class="btn-info" onclick="openModal('modalFutsal')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-volleyball-ball"></i>
+                    <h3>Vôlei</h3>
+                    <p>Masculino e Feminino</p>
+                    <button class="btn-info" onclick="openModal('modalVolei')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-basketball-ball"></i>
+                    <h3>Basquete</h3>
+                    <p>Masculino e Feminino</p>
+                    <button class="btn-info" onclick="openModal('modalBasquete')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-table-tennis"></i>
+                    <h3>Tênis de Mesa</h3>
+                    <p>Individual</p>
+                    <button class="btn-info" onclick="openModal('modalTenis')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-chess"></i>
+                    <h3>Xadrez</h3>
+                    <p>Individual</p>
+                    <button class="btn-info" onclick="openModal('modalXadrez')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Queimada</h3>
+                    <p>Misto</p>
+                    <button class="btn-info" onclick="openModal('modalQueimada')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-running"></i>
+                    <h3>Atletismo</h3>
+                    <p>Provas Diversas</p>
+                    <button class="btn-info" onclick="openModal('modalAtletismo')">Detalhes</button>
+                </div>
+                <div class="modalidade-card">
+                    <i class="fas fa-hand-rock"></i>
+                    <h3>Handebol</h3>
+                    <p>Masculino e Feminino</p>
+                    <button class="btn-info" onclick="openModal('modalHandebol')">Detalhes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria" class="galeria-section">
+        <div class="container">
+            <h2 class="section-title">Galeria de Fotos</h2>
+            <p class="section-subtitle">Momentos incríveis do Interclasse</p>
+            <div class="carousel-container">
+                <button class="carousel-btn prev" onclick="moveCarousel(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/todos-jogadores.jpeg" alt="Premiação">
+                    <div class="carousel-caption">
+                        <h3>Todos os Participantes</h3>
+                        <p>União e espírito esportivo do Interclasse</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/Clarke.jpg" alt="Foto coletiva dos participantes">
+                    <div class="carousel-caption">
+                        <h3>Todos os Participantes Da Turma Clarke </h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/Juliana.jpg" alt="Equipe de Futsal">
+                    <div class="carousel-caption">
+                        <h3>Todos Participantes da Turma Juliana</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/Kichoff.jpg" alt="Equipe com uniforme preto">
+                    <div class="carousel-caption">
+                        <h3>Todos os Participantesda Turma Kichoff</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/OHM.jpg" alt="Equipe de uniforme azul">
+                    <div class="carousel-caption">
+                        <h3>Todos os Participantes OHM</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/Telkes.jpg" alt="Time com coletes amarelos">
+                    <div class="carousel-caption">
+                        <h3>Todos os Participantes Telkes</h3>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="Estilos completos/IMG/jogo-aovivo.jpeg" alt="Equipe de preto">
+                    <div class="carousel-caption">
+                        <h3>Time de Futsal Ao vivo</h3>
+                    </div>
+                </div>
+             <button class="carousel-btn next" onclick="moveCarousel(1)" aria-label="Próximo slide">
+                <i class="fas fa-chevron-right"></i>
+                </button>      
+            <div class="carousel-indicators">
+                <span class="indicator active" onclick="goToSlide(0)"></span>
+                <span class="indicator" onclick="goToSlide(1)"></span>
+                <span class="indicator" onclick="goToSlide(2)"></span>
+                <span class="indicator" onclick="goToSlide(3)"></span>
+                <span class="indicator" onclick="goToSlide(4)"></span>
+                <span class="indicator" onclick="goToSlide(5)"></span>
+                <span class="indicator" onclick="goToSlide(6)"></span> 
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3><i class="fas fa-school"></i> IFTM Paracatu</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Instituto Federal do Triângulo Mineiro - Campus Paracatu</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/iftmptu/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@iftm-paracatu7210"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 IFTM Paracatu - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modalInfo" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalInfo')">×</span>
+            <h2><i class="fas fa-info-circle"></i> Sobre o Interclasse 2025</h2>
+            <p>O Interclasse é o maior evento esportivo do IFTM Campus Paracatu, reunindo estudantes de todos os cursos em uma competição saudável e cheia de energia!</p>
+            <h3>Objetivos:</h3>
+            <ul>
+                <li>Promover a integração entre os alunos</li>
+                <li>Incentivar a prática esportiva</li>
+                <li>Desenvolver o espírito de equipe</li>
+                <li>Fortalecer os valores de fair play</li>
+            </ul>
+            <p><strong>Período:</strong> Dezembro de 2025</p>
+        </div>
+    </div>
+
+    <div id="modalRegras" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalRegras')">×</span>
+            <h2><i class="fas fa-book"></i> Regulamento</h2>
+            <h3>Regras Gerais:</h3>
+            <ol>
+                <li>Todos os alunos regularmente matriculados podem participar</li>
+                <li>Cada turma deve ter um representante</li>
+                <li>É obrigatório o uso de uniforme ou camisa da turma</li>
+                <li>Respeito aos adversários e árbitros é fundamental</li>
+                <li>Cartões vermelhos resultam em suspensão automática</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="modalFutsal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalFutsal')">×</span>
+            <h2><i class="fas fa-futbol"></i> Futsal</h2>
+            <p>O Futsal é uma das modalidades mais populares do Interclasse, com categorias masculina e feminina.</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Times de 5 jogadores (4 na linha + goleiro)</li>
+                <li>Dois tempos de 8 minutos</li>
+                <li>Sistema de eliminatórias Dupla</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalVolei" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalVolei')">×</span>
+            <h2><i class="fas fa-volleyball-ball"></i> Vôlei</h2>
+            <p>O Vôlei traz toda a emoção das cortadas e defesas espetaculares!</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Times de 6 jogadores</li>
+                <li>Melhor de 3 sets</li>
+                <li>Sets de 15 pontos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalBasquete" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalBasquete')">×</span>
+            <h2><i class="fas fa-basketball-ball"></i> Basquete</h2>
+            <p>Velocidade, habilidade e estratégia se encontram no basquete!</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Times de 5 jogadores</li>
+                <li>Dois tempos de 6 Minutos</li>
+                <li>Sistema de Disputa Simples. Caso de empate será decidido por lance livre</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalTenis" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalTenis')">×</span>
+            <h2><i class="fas fa-table-tennis"></i> Tênis de Mesa</h2>
+            <p>Competição individual que requer reflexo rápido e precisão!</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Partidas individuais</li>
+                <li>Sistema de Disputa e emparelhamento serão definidos nos dias dos jogos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalXadrez" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalXadrez')">×</span>
+            <h2><i class="fas fa-chess"></i> Xadrez</h2>
+            <p>Batalha de estratégia e raciocínio lógico!</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Partidas individuais</li>
+                <li>Sistema de Disputa e emparelhamento serão definidos nos dias dos jogos</li>
+                <li>Sistema suíço de pontos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalQueimada" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalQueimada')">×</span>
+            <h2><i class="fas fa-dumbbell"></i> Queimada</h2>
+            <p>Diversão garantida nesta modalidade clássica!</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Times mistos de no mínimo 10 jogadores</li>
+                <li>Partidas de 10 minutos</li>
+                <li>Jogo Único</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalAtletismo" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalAtletismo')">×</span>
+            <h2><i class="fas fa-running"></i> Atletismo</h2>
+            <p>Provas de corrida, saltos e arremessos!</p>
+            <h3>Provas:</h3>
+            <ul>
+                <li>Corrida de 800m</li>
+                <li>Arremesso de peso</li>
+                <li>Salto em distância</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modalHandebol" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalHandebol')">×</span>
+            <h2><i class="fas fa-hand-rock"></i> Handebol</h2>
+            <p>Jogo dinâmico que combina velocidade e força!</p>
+            <h3>Formato:</h3>
+            <ul>
+                <li>Times de 7 jogadores</li>
+                <li>Dois tempos de 8 minutos</li>
+                <li>Jogo Único</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="Estilos completos/JS/script.js"></script>
+</body>
+</html>
